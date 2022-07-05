@@ -1,0 +1,184 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+/* partie annonce de proprieté*/
+
+body,header,html{
+    margin: 0;
+    padding: 0;
+   font-family: 'Playfair Display', serif;
+}
+
+/*partie navigation*/
+nav{
+
+    display:flex ;
+    color: white;
+    flex-wrap: wrap ; 
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  
+}
+
+/*partie onglets*/
+
+nav .onglets{
+    color: white;
+    margin-top: -550px;
+
+
+
+}
+
+nav .onglets a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+    margin-right: 40px;
+    margin: 30px;
+    font-size: 15px
+
+}
+
+/* fin pour la partie onglet*/
+
+/*partie promo*/
+nav .promo {
+    text-decoration: none;
+    color: white;
+    margin-top: 30px;
+    font-size: 12px
+
+}
+
+/*fin de la partie promo/  Ps: j'ai pas reussie l'effet appliqué a cette partie */
+
+
+/*partie header*/
+
+/* placement de l'image pricipal*/
+
+header{
+     background-image: url(yoga.jpg);
+     background-size: cover;
+     padding: 340px;
+     text-align: center;
+     flex-wrap:wrap
+
+}
+
+header h1{
+     text-decoration: none;
+     color: white;
+     font-family: 'Kaushan Script', cursive;
+     text-align: center;
+     margin-top:-140px;
+     font-size: 35px
+}
+
+/*fin de la partie header*/
+
+
+
+/*partie pricipale*/
+img.alignleft{
+    float: left;
+    margin: 30px 60px 40px 0px;
+}
+
+
+
+img.alignright{
+    float: right;
+    margin: 50px 0px -40px 40px;
+
+}
+
+p.alignleft{
+    text-align: justify;
+}
+
+p.alignright{
+    text-align: justify;
+    
+    
+}
+
+section{
+    margin: 5% 10% 5% 10%;
+}
+
+section img{
+    width: 270px
+
+}
+
+section p{
+    font-size: 12px
+
+}
+
+
+.clear{
+    display:block;
+    clear:both;
+}
+
+/*fin de la partie pricipale*/
+
+/*partie complementaire gestion des articles*/
+
+aside{
+    display: flex;
+    color: #ffff;
+    background-image: url(rev.jpg);
+    background-size: cover;
+	text-align: center;
+    width: 1350px;
+    height: 600px;  
+	clear: both;
+
+}
+
+
+aside div{
+	text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 10px 0px 35px
+	  
+}
+
+
+aside article p {
+    font-size: 15px
+
+}
+
+h3{
+    font-size: 40px
+    margin: 150px 0px 15px 0px
+
+}
+
+
+
+aside div img{
+    width: 220px;
+	margin: 0px 80px 20px 60px
+	
+        
+}
+
+/*fin de la partie complementaire*/
+
+/*partie GPS*/
+
+iframe{
+    display: flex;
+}
+
+
